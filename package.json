@@ -1,0 +1,22 @@
+{
+  "name": "discord-tickets-pix",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.17.0"
+  },
+  "scripts": {
+    "start": "node --env-file=.env src/bot.js",
+    "register": "node --env-file=.env src/register.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "discord.js": "14.25.1",
+    "qrcode": "1.5.4"
+  },
+  "devDependencies": {
+    "jsqr": "1.4.0",
+    "pngjs": "7.0.0"
+  }
+}

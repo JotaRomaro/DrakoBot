@@ -1,0 +1,27 @@
+{
+    "panelTitle":  "Central de atendimento",
+    "panelDescription":  "Precisa de ajuda ou quer comprar VIP? Escolha uma opção abaixo para abrir seu atendimento privado.",
+    "categories":  [
+                       {
+                           "id":  "ajuda",
+                           "label":  "Suporte",
+                           "description":  "Dúvidas e suporte",
+                           "message":  "Descreva sua dúvida com detalhes. Se aparecer um erro, envie uma captura de tela. Nossa equipe vai te atender por aqui."
+                       },
+                       {
+                           "id":  "vip",
+                           "label":  "Compras · VIP",
+                           "description":  "Benefícios, compra e pagamento Pix",
+                           "message":  "Confira os benefícios e os dados de pagamento abaixo. Após pagar, clique em Já paguei e aguarde a conferência da equipe."
+                       }
+                   ],
+    "vip":  {
+                "name":  "VIP",
+                "price":  "R$ 29,90",
+                "benefits":  "Descreva os beneficios e a validade do VIP.",
+                "pixKey":  "SUA_CHAVE_PIX",
+                "receiverName":  "NOME DO TITULAR DA CONTA",
+                "instructions":  "Confira o nome do destinatário no aplicativo do banco antes de confirmar. Depois envie o comprovante neste ticket. O cargo só será liberado após a equipe conferir o recebimento.",
+                "receiverCity":  "SUA CIDADE"
+            }
+}
